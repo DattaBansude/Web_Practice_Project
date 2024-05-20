@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<%@page import="java.sql.*"%>
-<%@page import="org.hibernate.*"%>
-<%@page import="javax.servlet.*"%>
-<%@page import="org.hibernate.cfg.AnnotationConfiguration"%>
-<%@page import="com.shatakshi.model.Purchase"%>
-<%@page import="java.util.*"%>
-<%@page import="java.time.format.DateTimeFormatter"%>
-<%@page import="java.time.LocalDateTime"%>
+    pageEncoding="ISO-8859-1"%>
+     <%@page import = "java.sql.*" %>
+     <%@page import = "org.hibernate.*" %>
+      <%@page import = "javax.servlet.*" %>
+      <%@page import = "org.hibernate.cfg.AnnotationConfiguration" %>
+         <%@page import = "com.shatakshi.model.Purchase" %>
+          <%@page import = "java.util.*" %>
+      <%@page import = "java.time.format.DateTimeFormatter" %>
+       <%@page import = "java.time.LocalDateTime" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -15,7 +15,7 @@
 <title>Book store</title>
 </head>
 <body>
-	<%
+<%
 
 String Uid = (String)session.getAttribute("Uid");
 int Bid = (int) session.getAttribute("Bid");
